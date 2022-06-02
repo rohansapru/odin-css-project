@@ -1,0 +1,187 @@
+/*div{
+    border: 1px solid black;
+}
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 208px;
+    /*margin-bottom: 70px;*/
+    background-color: #1f2937;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link{
+    margin-right: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 208px;
+    padding-right: 208px;
+    padding-bottom: 130px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1f2937;
+}
+
+.hero-content{
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+#hero-one{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#hero-two{
+    margin-top: 2px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content button{
+    border-color: #3882F6;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-weight: bold;
+
+}
+
+.hero-image{
+    border: 1px solid #1f2937;
+    background-color: gray;
+    width: 525px;
+    height: 240px;
+
+}
+
+.information{
+    border: 1px solid black;
+    margin-top: 0;
+    padding-top: 50px;
+   padding-bottom: 110px;
+   margin-bottom: 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+
+.info{
+    width: 170px;
+}
+
+.info-image{
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 170px;
+    width: 170px;
+}
+
+.info-text{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 18px;
+    color: #5b5d61;
+    font-weight: 500;
+}
+
+.content{
+    display: flex;
+    /*padding-left: 350px;
+    padding-right: 350px;*/
+    justify-content: center;
+    gap: 56px;
+}
+
+.quote-section{
+    /*border: 1px solid black;*/
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.quote{
+    /*border: 1px solid black;*/
+    width: 800px;
+    margin: 0 auto;
+}
+
+#quote-one{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#quote-two{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.signup-container{
+    /*border: 1px solid black;*/
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    width: 1024px;
+    margin: 100px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+}
+
+.signup-container button{
+    border: 2px solid white;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 16px;
+}
+
+#signup-one{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#signup-two{
+    margin-top: -24px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
